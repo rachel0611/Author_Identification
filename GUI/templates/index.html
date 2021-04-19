@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authorship Identification</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/main.css') }}"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">Authorship Identification</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="/"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="/identify">Identify</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="jumbotron py-3">
+      <div align="center">
+        <h1>Authorship Identification</h1>
+      </div>
+    </div>
+
+    <div align="center">
+      <h2>Authors Used For Training</h2>
+    </div>
+    <br />
+    <div class="container">
+      <div class="row">
+        <div align="center" class="col">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/2/27/Edgar_Allan_Poe_2.jpg"
+            alt="Edgar Allan Poe"
+            width="200"
+          />
+          <br />
+          <h4>Edgar Allan Poe</h4>
+        </div>
+        <div align="center" class="col">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/1/10/H._P._Lovecraft%2C_June_1934.jpg"
+            alt="Howard Phillips Lovecraft"
+            width="200"
+          />
+          <br />
+          <h4>Howard Phillips Lovecraft</h4>
+        </div>
+        <div align="center" class="col">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Portrait_of_Percy_Bysshe_Shelley_by_Curran%2C_1819.jpg/220px-Portrait_of_Percy_Bysshe_Shelley_by_Curran%2C_1819.jpg"
+            alt="Mary Wollstonecraft Shelley"
+            width="200"
+          />
+          <br />
+          <h4>Mary Wollstonecraft Shelley</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div align="center" class="col-4">
+          <img
+            src="https://www.gstatic.com/tv/thumb/persons/168530/168530_v9_ba.jpg"
+            alt="Bram Stoker"
+            width="200"
+          />
+          <br />
+          <h4>Bram Stoker</h4>
+        </div>
+        <div align="center" class="col">
+          <img
+            src="https://www.gstatic.com/tv/thumb/persons/926/926_v9_bc.jpg"
+            alt="Stephen King"
+            width="200"
+          />
+          <br />
+          <h4>Stephen King</h4>
+        </div>
+        <div align="center" class="col">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Stephen_Jones.jpg"
+            alt="Stephen Jones"
+            width="200"
+            height="265"
+          />
+          <br />
+          <h4>Stephen Jones</h4>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
