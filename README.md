@@ -2,7 +2,7 @@
 
 This project detects the author of text with unknown authorship by comparing the unknown text with the dataset of authors and extracts from their novels. 
 
-Technologies used: Python, Jupyter Notebook, Pandas, Numpy, Seaborn, Matplotlib
+Technologies used: Python, Pandas, Numpy, Seaborn, Matplotlib
 
 Machine Learning algorithms: Naive Bayes Classifier, Logistic Regression
 
